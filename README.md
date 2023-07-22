@@ -15,3 +15,6 @@ Allows teleporting into solid tiles
     
 ### Example    
 [Gif](https://gyazo.com/c309dc59f4c8f7d5ae7b84073d68dc91)
+
+### Original repository
+https://github.com/Quinci135/MapTeleport
