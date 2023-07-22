@@ -1,5 +1,7 @@
 # MapTeleport
 Teleports you to pinged locations on the map
+- Originally made by [Quinci135](https://github.com/Quinci135)
+- Ported to **TShock** `5.2` by yours truly
 
 ## Installation
 Place MapTeleport.dll into your ServerPlugins folder      
