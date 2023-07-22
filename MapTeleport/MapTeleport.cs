@@ -10,10 +10,10 @@ namespace MapTeleport
     [ApiVersion(2, 1)]
     public class MapTeleport : TerrariaPlugin
     {
-        public override string Author => "Quinci";
+        public override string Author => "Quinci, updated by Maxthegreat99";
         public override string Description => "Teleports you to where you pinged on the map.";
         public override string Name => "MapTeleport";
-        public override Version Version => new Version(1, 0, 0, 0);
+        public override Version Version => new Version(1, 0, 0, 1);
         public MapTeleport(Main game) : base(game)
         {
 
