@@ -40,7 +40,7 @@ namespace MapTeleport
 			if (player == null || !player.Active)
 				return;
 
-			player.SetData("mapteleport", false);
+			player.SetData("mapteleport", true);
         }
         private void ToggleMapTeleport(CommandArgs args) {
             args.Player.SetData<bool>("mapteleport",!args.Player.GetData<bool>("mapteleport"));
@@ -67,6 +67,8 @@ namespace MapTeleport
                                     player.SendErrorMessage("You do not have permission to teleport into solid tiles.");
                                 }
                             }
+                            args.Handled = true;
+                            return;
                         }
                     }
                 }
