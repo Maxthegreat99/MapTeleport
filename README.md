@@ -12,6 +12,9 @@ Allow the use of /mapteleport aka /maptp (Command toggles between on and off, de
     
 `mapteleport.solid`    
 Allows teleporting into solid tiles
+
+`mapteleport.autoenabled`
+Allows to have `MapTp` automatically enabled for you when you join.
     
 ### Example    
 [Gif](https://gyazo.com/c309dc59f4c8f7d5ae7b84073d68dc91)
